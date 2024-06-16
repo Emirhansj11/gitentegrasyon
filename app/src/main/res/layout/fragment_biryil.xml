@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gri"
+    tools:context=".fragments.biryil">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:text="Ürünler"
+        android:textColor="#BD871C"
+        android:textSize="20dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="230dp"
+        android:textColor="#BD871C"
+        android:textStyle="bold"
+        android:text="Zam Oranları"
+        android:textSize="20dp"
+        android:layout_height="40dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/wine">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Şarap"
+                        android:textColor="@color/açıkmor"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="@color/açıkmor"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/ayran">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Ayran"
+                        android:textColor="@color/açıkmavi"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="@color/açıkmavi"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/tea">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Çay"
+                        android:textColor="@color/mercankırmızı"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="@color/mercankırmızı"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/milk">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Süt"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="@color/white"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/water">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Su"
+                        android:textColor="@color/ton1mavi"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="@color/ton1mavi"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/coffee">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Kahve"
+                        android:textColor="#987654"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="#987654"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/beer">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Bira"
+                        android:textColor="#D5A319"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="#D5A319"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/kola">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Kola"
+                        android:textColor="#383838"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="#383838"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/kola">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Kola"
+                        android:textColor="#383838"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="#383838"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/kola">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Kola"
+                        android:textColor="#383838"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="#383838"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/kola">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Kola"
+                        android:textColor="#383838"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="#383838"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/kola">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Kola"
+                        android:textColor="#383838"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="#383838"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/kola">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Kola"
+                        android:textColor="#383838"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="#383838"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/kola">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Kola"
+                        android:textColor="#383838"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="#383838"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/kola">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Kola"
+                        android:textColor="#383838"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="%128"
+                    android:textColor="#383838"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/baseline_visibility_off_24">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Premium Gerekli"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="     ?"
+                    android:textColor="#000000"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/baseline_visibility_off_24">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Premium Gerekli"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="     ?"
+                    android:textColor="#000000"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/baseline_visibility_off_24">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Premium Gerekli"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="     ?"
+                    android:textColor="#000000"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/baseline_visibility_off_24">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Premium Gerekli"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="     ?"
+                    android:textColor="#000000"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/gri">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/baseline_visibility_off_24">
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Premium Gerekli"
+                        android:textColor="#000000"
+                        android:textSize="20sp"
+                        android:textStyle="bold|italic" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="30dp"
+                    android:text="     ?"
+                    android:textColor="#000000"
+                    android:textSize="35dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

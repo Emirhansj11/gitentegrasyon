@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gri"
+    tools:context=".sonucbulunamadi">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="400dp"
+        android:layout_centerInParent="true"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        android:text="Aradığınız sonuca ulaşılamadı."
+        android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="430dp"
+        android:text="Başlıca nedenleri şunlar olabilir:"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="30dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="465dp"
+        android:text="1-) Arattığınız kelimenin arkasında veya önünde gereksiz boşluk kullanımı"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="528dp"
+        android:text="2-) Arattığınız kelimenin uygulamada kayıtlı olmaması"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="591dp"
+        android:text="3-)  Arattığınız kelimenin yanlış yazımının kullanılması"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="654dp"
+        android:text="4-)  Arattığınız kelimenin ilk harf dışındaki harflerinin büyük yazılması"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="60dp"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:clickable="true"
+        android:id="@+id/back"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="310dp"
+        android:drawableStart="@drawable/baseline_arrow_back_24"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+
+
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="118dp"
+        android:background="@color/gri"
+        android:src="@drawable/buyukyazibizam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="396dp"
+        android:layout_height="200dp"
+        android:background="@color/gri"
+        android:layout_marginTop="120dp"
+        android:padding="14dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/dene" />
+
+
+
+
+
+
+</RelativeLayout>

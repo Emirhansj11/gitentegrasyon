@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gri"
+    tools:context=".ZamSampiyonlari">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="118dp"
+        android:background="@color/gri"
+        android:src="@drawable/buyukyazibizam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:clickable="true"
+        android:id="@+id/back"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="310dp"
+        android:drawableStart="@drawable/baseline_arrow_back_24"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="ZAM"
+        android:textSize="70dp"
+        android:textStyle="bold|italic"
+        android:fontFamily="@font/baloo_bhai"
+        android:textColor="#BD871C"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_marginTop="190dp"
+        android:text="ŞAMPİYONLARI"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        android:fontFamily="@font/baloo_bhai"
+        android:textColor="#BD871C"
+        android:layout_marginLeft="20dp"
+        android:layout_height="70dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="170dp"
+        android:src="@drawable/cup"
+        android:layout_height="50dp"/>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tablelayout"
+            android:layout_width="match_parent"
+            android:background="@color/gri"
+            android:layout_height="wrap_content" />
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+</RelativeLayout>

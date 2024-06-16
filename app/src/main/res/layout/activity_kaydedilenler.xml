@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gri"
+    tools:context=".Kaydedilenler">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="118dp"
+        android:background="@color/gri"
+        android:src="@drawable/buyukyazibizam"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:clickable="true"
+        android:id="@+id/back"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="310dp"
+        android:drawableStart="@drawable/baseline_arrow_back_24"
+        android:textColor="@color/black"
+        android:textStyle="italic"/>
+
+
+    <TextView
+    android:layout_width="250dp"
+    android:layout_marginTop="150dp"
+    android:text="KAYDEDİLEN"
+    android:textSize="40dp"
+    android:textStyle="bold|italic"
+    android:fontFamily="@font/baloo_bhai"
+    android:textColor="#7E1C3E"
+    android:layout_marginLeft="20dp"
+    android:layout_height="70dp"/>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_marginTop="190dp"
+        android:text="ÜRÜNLER"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        android:fontFamily="@font/baloo_bhai"
+        android:textColor="#7E1C3E"
+        android:layout_marginLeft="20dp"
+        android:layout_height="70dp"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="260dp"
+        android:src="@drawable/trolley"
+        android:layout_height="100dp"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="260dp"
+        android:background="#85637E"
+        android:layout_marginLeft="30dp"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linear15">
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+    
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:id="@+id/banner1"
+        android:layout_marginTop="320dp"
+        android:layout_centerHorizontal="true"
+        ads:adUnitId="@string/testAdsId"
+        ads:adSize="FULL_BANNER"
+        android:layout_height="wrap_content"/>
+
+
+
+    
+
+</RelativeLayout>

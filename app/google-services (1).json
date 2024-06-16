@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1023668126363",
+    "firebase_url": "https://fir-kullanimi-6b44a-default-rtdb.firebaseio.com",
+    "project_id": "fir-kullanimi-6b44a",
+    "storage_bucket": "fir-kullanimi-6b44a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023668126363:android:34c227cdd30809e32abc3e",
+        "android_client_info": {
+          "package_name": "com.example.bizam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023668126363-1ve2h0fae7sjt37ea39vcjv519hkl4u0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJhHH5OWZeV4Kjpj1Azfjx-lcV-nzUxes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023668126363-1ve2h0fae7sjt37ea39vcjv519hkl4u0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

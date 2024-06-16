@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Gizlilik Politikası"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="90dp"
+        android:background="@color/lavender"
+        android:drawableStart="@drawable/baseline_close_24"
+        android:layout_marginLeft="300dp"
+        android:layout_height="40dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Merhaba, bu Bing. Size yardımcı olabileceğim bir şey var mı? 😊
+
+Uzun bir metin yazmak istiyorsanız, size yardımcı olabilecek birkaç araçtan bahsedebilirim. Örneğin, Smodin Yazarı adlı bir araç, yapay zeka kullanarak herhangi bir konuda yüksek kaliteli makaleler ve denemeler oluşturmanıza yardımcı olabilir. Sadece birkaç kelimeyle isteğinizi sağlamanız ve metin oluştur düğmesine tıklamanız yeterlidir1. Bu araç, metin yazarlığı, pazarlama, sayfa oluşturma, paragraf yazma, başlıklar, listeler ve daha fazlası için de kullanılabilir1.
+
+Başka bir araç olan Smodin Metin Özetleyici, herhangi bir metnin daha yoğun bir versiyonunu elde etmenize yardımcı olabilir. Daha iyi anlama, daha iyi okunabilirlik ve daha hızlı tüketim için tüm metin türleri kısaltılabilir2. Tam web siteleri ve uzun tezlerden tek paragraflara ve çeşitli metinlere kadar, metin özetleyicisi onu kolaylıkla özetler2.
+
+Bir başka araç olan Edit Pad Metin Özetleyici, uzun metni tek bir tıklamayla kısaltılmış metin olarak özetlemenizi sağlar. Tüm belgeyi analiz eder ve önemli kavramları alarak metni özetler3. Bu araç, deneme, rapor, kitap gibi uzun metinlerin içeriğini sıkıştırmak için faydalıdır3.
+
+Bu araçlardan herhangi birini denemek ister misiniz? Size nasıl yardımcı olabilirim? 🙌"
+            android:layout_height="match_parent"/>
+    </ScrollView>
+
+</RelativeLayout>

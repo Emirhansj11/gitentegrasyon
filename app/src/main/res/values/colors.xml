@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gri">#737373</color>
+    <color name="yesil">#009688</color>
+    <color name="pembe">#FF1493</color>
+    <color name="mercankırmızı">#FF4040</color>
+    <color name="koyuyeşil">#43A047</color>
+    <color name="açıkyeşil">#7CB342</color>
+    <color name="koyumavi">#3949AB</color>
+    <color name="mavi">#1E88E5</color>
+    <color name="açıkmavi">#039BE5</color>
+    <color name="mor">#4A065C</color>
+    <color name="açıkturuncu">#FFB300</color>
+    <color name="turuncu">#FB8C00</color>
+    <color name="kirazrengi">#AE445A</color>
+    <color name="açıkmor">#662549</color>
+    <color name="kirlimavi">#294D61</color>
+    <color name="açıkpembe">#BD83B8</color>
+    <color name="krem">#FBC4AB</color>
+    <color name="şeftalirengi">#D45E5E</color>
+    <color name="m">#535878</color>
+    <color name="ton1mavi">#006DA4</color>
+    <color name="ton2mavi">#006494</color>
+    <color name="zenginyeşil">#009900</color>
+    <color name="lavender">#8692f7</color>
+
+
+</resources>

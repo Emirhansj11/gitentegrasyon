@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:background="@drawable/navgovde">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:padding="16dp"
+        android:background="@drawable/navbaslik"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="78dp"
+            android:src="@drawable/buyukyazibizam" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:id="@+id/navproblemvarmi">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Bİr problem mi var?"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_help_24"
+            android:padding="8dp"
+            android:textColor="@color/gri" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:id="@+id/navgizlilikpolitikasi">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Gizlilik Politikası"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_menu_book_24"
+            android:padding="8dp"
+            android:textColor="@color/gri" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="closelayout"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:id="@+id/navsohbet">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Sohbet"
+            android:clickable="true"
+            android:id="@+id/sohbett"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_chat_bubble_24"
+            android:padding="8dp"
+            android:textColor="@color/gri" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:id="@+id/navzamsampiyonlari">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Zam Şampiyonları"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_bar_chart_24"
+            android:padding="8dp"
+            android:textColor="@color/gri" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:id="@+id/navkaydedilenler">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Kaydedilenler"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_bookmark_24"
+            android:padding="8dp"
+            android:textColor="@color/gri" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:background="@color/gri"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:clickable="true"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:id="@+id/navgida">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="  Gıda "
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_fastfood_24"
+            android:padding="8dp"
+            android:textColor="@color/gri" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:clickable="true"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:id="@+id/navgiyim">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="  Giyim "
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_dry_cleaning_24"
+            android:padding="8dp"
+            android:textColor="@color/gri" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:clickable="true"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:id="@+id/navelektronik">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="  Elektronik "
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_electrical_services_24"
+            android:padding="8dp"
+            android:textColor="@color/gri" />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:background="@color/gri"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:clickable="true"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:id="@+id/navpremium">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="  Bi Zam Premium "
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_diamond_24"
+            android:padding="8dp"
+            android:textColor="@color/lavender" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:clickable="true"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:id="@+id/navcikis">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="  Menüyü Kapat"
+            android:textSize="20dp"
+            android:drawableLeft="@drawable/baseline_close_24"
+            android:padding="8dp"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
